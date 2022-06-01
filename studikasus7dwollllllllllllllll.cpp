@@ -7,7 +7,6 @@ class Vape{
       void data();
 };
 
-
 typedef struct{
 	int kode, stok;
 	char nama[10];
@@ -90,7 +89,7 @@ cout<<"********************************************************"<<endl;
                     cout<<"|         "<<barang[j].kode<<"\t\t  "<<barang[j].nama<<"\t\t     "<<barang[j].stok<<"\t\t "<<"|"<<endl;
                 }
             }
-            cout<<"********************************************************"<<endl<<endl;
+            cout<<"********************************************************"<<endl;
 	if (ada == 0){
 		cout<<"Data Tidak ditemukan"<<endl;
 	}	
@@ -100,3 +99,8 @@ int main(){
    kebumen.data();
    return 0;
 }
+
+
+//Anggota Kelompok: 1. Lifa 2100018404
+//                  2. Dwi Cahyo Nugroho 2100018405
+//	            3. Qonita Auliya 2100018407
